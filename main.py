@@ -7,3 +7,4 @@ for i in range(5):
     total += number
 
 print("The running total is: ", total)
+
