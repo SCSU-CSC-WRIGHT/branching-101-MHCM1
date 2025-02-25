@@ -1,4 +1,4 @@
-def print_total():
+def main():
     """
     The script below includes a function that asks the user five times 
     for a number, adding each input number to the running total before
@@ -14,11 +14,7 @@ def print_total():
 
     print("The running total is: ", total)
 
-# Defining main method for invocation 
-def main():
-    print_total()
-
-
+#Invoking via method
 if __name__ == "__main__":
-    print_total()
+    main()
 
